@@ -5,7 +5,6 @@ from typing import List, Dict
 from src.api_integrations.pubmed import buscar_pubmed
 from src.api_integrations.europepmc import buscar_europepmc
 from src.api_integrations.arxiv import buscar_arxiv
-from src.api_integrations.cochrane import buscar_cochrane
 from src.api_integrations.clinical_trials import buscar_clinical_trials
 from src.api_integrations.who_guidelines import buscar_who
 
@@ -17,7 +16,6 @@ ALL_SOURCES = {
     "pubmed": buscar_pubmed,
     "europepmc": buscar_europepmc,
     "arxiv": buscar_arxiv,
-    "cochrane": buscar_cochrane,
     "clinical_trials": buscar_clinical_trials,
     "who": buscar_who
 }
@@ -48,7 +46,7 @@ def buscar_documentos_relevantes(
         sources = ["pubmed", "europepmc", "arxiv"]
 
         # ClinicalTrials e WHO são opcionais (instáveis)
-        # Você pode ativar quando quiser:
+        # Para ativar quando quiser:
         # sources += ["clinical_trials", "who"]
 
     resultados: List[Dict] = []
