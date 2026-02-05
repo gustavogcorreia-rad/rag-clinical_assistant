@@ -8,12 +8,12 @@ st.set_page_config(page_title="Assistente de Hemorragia Intracraniana", layout="
 
 # Simulação de output do modelo IA (na integração real, será dinâmico)
 # LEMBRAR DE ADICIONAR NOME DO PACIENTE - PROVENIENTE DO MODELO DE DETECÇÃO
-tipo_hemorragia = "epidural hemorrhage"
-probabilidade = 0.92
+tipo_hemorragia = "subdural hemorrhage"
+probabilidade = 0.93
 
 st.title("Assistente de Conduta em Hemorragia Intracraniana")
-st.markdown(f"**CASO 01 - masculino, 28 anos")
-st.markdown(f"**Tipo de hemorragia mais provável detectada:** Epidural")
+st.markdown(f"**CASO 03 - Masculino, 68 anos")
+st.markdown(f"**Tipo de hemorragia mais provável detectada:** Subdural")
 st.markdown(f"**Probabilidade:** {probabilidade * 100:.1f}%")
 
 st.divider()
