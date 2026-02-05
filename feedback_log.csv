@@ -1,0 +1,20 @@
+timestamp,feedback,resposta,referencias,dados_clinicos
+2025-07-04T09:28:48.287613,positivo,"Based on the provided abstracts, here is an evidence-based recommendation for the immediate management and best-practice emergency approach for intracranial hemorrhage in a patient with hypertension and recent trauma:
+
+- **Urgent Interventions:**
+  - Immediate CT scanning is essential to assess the ","1. [Unsupervised Acute Intracranial Hemorrhage Segmentation with Mixture   Models](http://arxiv.org/abs/2105.05891v1)
+2. [Intracranial Hemorrhage Detection Using Neural Network Based Methods   With Federated Learning](http://arxiv.org/abs/2005.08644v3)
+3. [Voxel Scene Graph for Intracranial Hemorrhage](http://arxiv.org/abs/2407.21580v1)
+4. [HemSeg-200: A Voxel-Annotated Dataset for Intracerebral Hemorrhages   Segmentation in Brain CT Scans](http://arxiv.org/abs/2405.14559v1)
+5. [Diffusion Model based Semi-supervised Learning on Brain Hemorrhage   Images for Efficient Midline Shift Quantification](http://arxiv.org/abs/2301.00409v1)","{'hemorrhage_type': 'epidural hemorrhage', 'hemorrhage_probability': 0.9, 'hypertension': True, 'diabetes': False, 'chronic_liver_disease': False, 'coagulopathy': False, 'prior_stroke': False, 'altered_consciousness': False, 'focal_deficit': False, 'severe_headache': False, 'seizures': False, 'antiplatelet_use': False, 'substance_abuse': False, 'recent_trauma': True, 'prior_neurosurgery': False, 'vascular_malformation': False, 'thrombocytopenia': False, 'high_inr': False, 'neurosurgery_available': False, 'transfer_planned': False}"
+2026-01-11T02:05:32.554155,positivo,"Based on the provided abstracts, here are the immediate management recommendations for a patient with confirmed intracranial hemorrhage in the emergency department:
+
+1. **Urgent Interventions and Stabilization Priorities:**
+   - Ensure airway protection, adequate ventilation, and hemodynamic stabili","1. [A case of convexity non-aneurysmal subarachnoid hemorrhage caused by cerebral sinus thrombosis.](https://pubmed.ncbi.nlm.nih.gov/39390355/)
+2. [Endovascular Management of Traumatic Intracranial Aneurysms Using the Pipeline Flex Embolization Device With Shield Technology Under Single Antiplatelet Therapy: A Case Report and Literature Review.](https://pubmed.ncbi.nlm.nih.gov/40964562/)
+3. [A retrospective study of CT scan utilization in the emergency department for patients presenting with seizures.](https://pubmed.ncbi.nlm.nih.gov/38583342/)
+4. [Traumatic internal carotid artery aneurysm distant from facial bone fractures treated with a flow diverter stent: A case report.](https://pubmed.ncbi.nlm.nih.gov/39866510/)
+5. [[Acute care of patients with cerebral palsy in neuro-resuscitation surgery].](https://pubmed.ncbi.nlm.nih.gov/38643993/)
+6. [The Role of Brain Tissue Oxygenation Monitoring in the Management of Subarachnoid Hemorrhage: A Scoping Review.](https://pubmed.ncbi.nlm.nih.gov/36802011/)
+7. [Treatments for intracranial hypertension in acute brain-injured patients: grading, timing, and association with outcome. Data from the SYNAPSE-ICU study.](https://pubmed.ncbi.nlm.nih.gov/36622462/)
+8. [Analysis of traumatic intracranial hemorrhage and delayed traumatic intracranial hemorrhage in patients with isolated head injury on anticoagulation and antiplatelet therapy.](https://pubmed.ncbi.nlm.nih.gov/38059222/)","{'hemorrhage_type': 'subarachnoid hemorrhage', 'hemorrhage_probability': 0.9, 'hypertension': True, 'diabetes': False, 'chronic_liver_disease': False, 'coagulopathy': False, 'prior_stroke': False, 'altered_consciousness': True, 'focal_deficit': False, 'severe_headache': True, 'seizures': False, 'antiplatelet_use': False, 'substance_abuse': False, 'recent_trauma': False, 'prior_neurosurgery': False, 'vascular_malformation': True, 'thrombocytopenia': False, 'high_inr': False, 'neurosurgery_available': True, 'transfer_planned': False}"
