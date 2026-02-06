@@ -81,11 +81,11 @@ def bloco_caso(numero, url_app):
 """)
 
 # URLs dos apps (ajuste depois que o Streamlit gerar os links)
-bloco_caso(1, "LINK_STREAMLIT_CASE01")
-bloco_caso(2, "LINK_STREAMLIT_CASE02")
-bloco_caso(3, "LINK_STREAMLIT_CASE03")
-bloco_caso(4, "LINK_STREAMLIT_CASE04")
-bloco_caso(5, "LINK_STREAMLIT_CASE05")
+bloco_caso(1, "https://rag-clinicalassistant-case01.streamlit.app/")
+bloco_caso(2, "https://rag-clinicalassistant-case02.streamlit.app/")
+bloco_caso(3, "https://rag-clinicalassistant-case03.streamlit.app/")
+bloco_caso(4, "https://rag-clinicalassistant-case04.streamlit.app/")
+bloco_caso(5, "https://rag-clinicalassistant-case05.streamlit.app/")
 
 st.divider()
 
