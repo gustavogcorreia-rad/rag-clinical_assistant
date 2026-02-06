@@ -8,12 +8,20 @@ st.set_page_config(page_title="Assistente de Hemorragia Intracraniana", layout="
 
 # Simulação de output do modelo IA (na integração real, será dinâmico)
 # LEMBRAR DE ADICIONAR NOME DO PACIENTE - PROVENIENTE DO MODELO DE DETECÇÃO
-tipo_hemorragia = "intraparenchymal hemorrhage"
-probabilidade = 0.90
+tipo_hemorragia = "intraventricular hemorrhage"
+probabilidade = 0.95
 
 st.title("Assistente de Conduta em Hemorragia Intracraniana")
-st.markdown(f"**CASO 02 - feminino, 51 anos")
-st.markdown(f"**Tipo de hemorragia mais provável detectada:** Intraparenquimatosa")
+st.markdown(
+    """
+Os casos para avaliação são **baseados em pacientes reais**, adaptados
+para esta simulação educacional e científica. A ferramenta usa recursos de Inteligência Artificial (RAG + LLM) para geração de recomendações iniciais baseadas em **literatura científica selecionada**.
+"""
+)
+
+st.divider()
+st.markdown(f"**Simulação CASO 05 - Feminino, 75 anos")
+st.markdown(f"**Tipo de hemorragia mais provável detectada:** Intraventricular")
 st.markdown(f"**Probabilidade:** {probabilidade * 100:.1f}%")
 
 st.divider()
